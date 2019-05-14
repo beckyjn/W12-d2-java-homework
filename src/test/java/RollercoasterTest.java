@@ -18,7 +18,7 @@ public class RollercoasterTest {
         shortAdult = new Visitor(40, 40, 144);
         tallChild = new Visitor(11, 10, 146);
         smallChild = new Visitor(5, 10, 100);
-        rollercoaster = new Rollercoaster("Infinite Tape Hole");
+        rollercoaster = new Rollercoaster("Infinite Tape Hole", 50);
     }
 
     @Test
@@ -44,5 +44,10 @@ public class RollercoasterTest {
     @Test
     public void wontLetTinyChildRide() {
         assertEquals(false, rollercoaster.isAllowedTo(smallChild));
+    }
+
+    @Test
+    public void canGetRating(){
+        assertEquals(50,rollercoaster.getRating());
     }
 }

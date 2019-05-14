@@ -9,7 +9,7 @@ public class ParkTest {
 
     @Before
     public void before() {
-        park = new Park("Pretty Fun");
+        park = new Park("Pretty Fun", 15);
     }
 
     @Test

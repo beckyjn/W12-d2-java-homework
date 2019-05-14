@@ -15,7 +15,7 @@ public class PlaygroundTest {
     public void before(){
         visitorAdult = new Visitor(30, 100.30, 180);
         visitorChild = new Visitor(10,15, 120);
-        playground = new Playground("Whirly Fun");
+        playground = new Playground("Whirly Fun", 45);
     }
 
 

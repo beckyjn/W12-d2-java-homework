@@ -15,13 +15,13 @@ public class BeerStallTest {
     public void before(){
         visitorAdult = new Visitor(30, 100.30, 180);
         visitorChild = new Visitor(10,15, 120);
-        beerStall = new BeerStall("Beers and Beers", "Billy Beerman", 30);
+        beerStall = new BeerStall("Beers and Beers", "Billy Beerman", 30, 70);
     }
 
 
     @Test
     public void hasName() {
-        assertEquals("Beers and Beers", beerStall.getName());
+        assertEquals("Beers and Beers", beerStall.getName(), 60);
     }
 
     @Test

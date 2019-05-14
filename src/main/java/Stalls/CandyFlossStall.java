@@ -1,7 +1,7 @@
 package Stalls;
 
 public class CandyFlossStall extends Stall {
-    public CandyFlossStall(String name, String ownerName, int parkingSpot){
-        super(name, ownerName, parkingSpot);
+    public CandyFlossStall(String name, String ownerName, int parkingSpot, int rating) {
+        super(name, ownerName, parkingSpot, rating);
     }
 }

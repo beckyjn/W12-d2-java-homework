@@ -10,7 +10,7 @@ public class DodgemsTest {
 
     @Before
     public void before() {
-        dodgems = new Dodgems("Danger Drivers");
+        dodgems = new Dodgems("Danger Drivers", 40);
     }
 
     @Test
